@@ -81,6 +81,6 @@ python -m uvicorn app.main:app --reload --port 8000
 | **Audio Output** | Procedurally generates standalone, playable `.wav` artifacts instantly. |
 
 ###  Bonus Objectives Validation
-- ✅ **Granular Emotions:** Modeled 10 distinct emotional states successfully.
-- ✅ **Intensity Scaling:** Developed a robust 0.0–1.0 intensity scalar that dynamically governs all vocal percentage alterations.
-- ✅ **Web Interface:** Engineered a modern, fully-responsive frontend with real-time feedback, API linkage, and integrated HTML5 audio playback.
+-  **Granular Emotions:** Modeled 10 distinct emotional states successfully.
+-  **Intensity Scaling:** Developed a robust 0.0–1.0 intensity scalar that dynamically governs all vocal percentage alterations.
+-  **Web Interface:** Engineered a modern, fully-responsive frontend with real-time feedback, API linkage, and integrated HTML5 audio playback.
