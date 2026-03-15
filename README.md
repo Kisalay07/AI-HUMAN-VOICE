@@ -1,6 +1,6 @@
-# 🌟 The Empathy Engine: Giving AI a Human Voice
+#  The Empathy Engine: Giving AI a Human Voice
 
-## 🎭 Project Overview
+##  Project Overview
 
 Standard Text-to-Speech (TTS) systems are highly functional but often lack the prosody, emotional range, and subtle vocal cues necessary to build genuine human connection. The empathy gap between text generation and audio delivery remains a challenge in automated interactions.
 
@@ -8,7 +8,7 @@ Standard Text-to-Speech (TTS) systems are highly functional but often lack the p
 
 ---
 
-## 🚀 Architecture and Tech Stack
+## Architecture and Tech Stack
 
 The project prioritizes accessibility, performance, and offline capability without reliance on external API keys:
 
@@ -19,7 +19,7 @@ The project prioritizes accessibility, performance, and offline capability witho
 - **pydub** — Audio waveform post-processing for precise emotional audio effects.
 - **Vanilla HTML/CSS/JS** — Responsive "Glassmorphism" frontend interface.
 
-## 💡 Notes on Design Choices
+##  Notes on Design Choices
 
 *This section explains the logic used for mapping emotions to voice parameters, as requested in the deliverables.*
 
@@ -33,7 +33,7 @@ While `pyttsx3` is highly efficient for offline speech synthesis, its default ou
 
 ---
 
-## 🧠 Core Features & Modulations
+##  Core Features & Modulations
 
 ### Emotion Mapping Logic
 
@@ -50,7 +50,7 @@ The voice engine utilizes predefined modulation profiles that scale linearly wit
 
 ---
 
-## 🎮 Setup & Execution Instructions
+##  Setup & Execution Instructions
 
 All required configuration files are contained within this repository. No external API keys are needed.
 
@@ -70,7 +70,7 @@ python -m uvicorn app.main:app --reload --port 8000
 
 ---
 
-## 🏆 Functional Requirements Validation
+##  Functional Requirements Validation
 
 | Requirement | Implementation Detail |
 |---|---|
@@ -80,7 +80,7 @@ python -m uvicorn app.main:app --reload --port 8000
 | **Emotion-to-Voice Mapping** | Achieved via a comprehensive programmatic mapping dictionary scaling linearly. |
 | **Audio Output** | Procedurally generates standalone, playable `.wav` artifacts instantly. |
 
-### 🌟 Bonus Objectives Validation
+###  Bonus Objectives Validation
 - ✅ **Granular Emotions:** Modeled 10 distinct emotional states successfully.
 - ✅ **Intensity Scaling:** Developed a robust 0.0–1.0 intensity scalar that dynamically governs all vocal percentage alterations.
 - ✅ **Web Interface:** Engineered a modern, fully-responsive frontend with real-time feedback, API linkage, and integrated HTML5 audio playback.
